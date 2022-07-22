@@ -64,11 +64,11 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-top: 10px solid yellow;
+    border-top: 10px solid coral;
   }
   
   #parallax-2 hr {
-    background: yellow;
+    background: coral;
   }
   
   #parallax-3 {
@@ -77,11 +77,11 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-top: 10px solid hotpink;
+    border-top: 10px solid coral;
   }
   
   #parallax-3 hr {
-    background: hotpink;
+    background: coral;
   }
   
   .label {

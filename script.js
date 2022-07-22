@@ -15,6 +15,9 @@ $(document).ready(function() {
         console.log(typeof ($(this).attr('id')));
         var position = $(target_id_name).offset().top;
         const speed = 500;
+        $(".navbar-burger").removeClass("is-active");
+        $(".navbar-menu").removeClass("is-active");
         $("html,body").animate({scrollTop:position},speed);
+        
     })
   });
