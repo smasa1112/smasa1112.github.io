@@ -10,9 +10,8 @@ $(document).ready(function() {
     });
 
     $(".hold-on-move").click(function() {
-        var target_id_name=('#'+($(this).attr('id').substr(5)));
+        var target_id_name=('#'+($(this).attr('title').substr(5)));
         console.log(target_id_name)
-        console.log(typeof ($(this).attr('id')));
         var position = $(target_id_name).offset().top;
         const speed = 500;
         $(".navbar-burger").removeClass("is-active");
