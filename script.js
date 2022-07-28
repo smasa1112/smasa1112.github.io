@@ -10,7 +10,7 @@ $(document).ready(function() {
     });
 
     $(".hold-on-move").click(function() {
-        var target_id_name=('#'+($(this).attr('title').substr(5)));
+        var target_id_name=('#'+($(this).attr('next').substr(5)));
         console.log(target_id_name)
         console.log($(this).attr('class'))
         var position = $(target_id_name).offset().top;
